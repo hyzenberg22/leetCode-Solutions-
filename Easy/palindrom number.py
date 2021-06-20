@@ -5,13 +5,13 @@
 # def palindrom(inp):
 #     temp = str(inp)[::-1]
 #     if str(inp)[0]=="-":
-#         return "false"
+#         return False
 #     else:
 #         if (inp >= -2147483648 and inp<= 2147483647):
 #             if str(inp) == temp:
-#                 return "true"
+#                 return True
 #             else:
-#                 return "false"
+#                 return False
 #         else:
 #             return 0
 
