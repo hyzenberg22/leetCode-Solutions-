@@ -29,6 +29,7 @@ def palindrom(inp):
             b = b*10 + c%10
             c//=10
         return b == inp
+        # return "true" if (b == inp)==True else "false" --> this is for returning a custom string
     
         
 
