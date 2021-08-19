@@ -22,11 +22,5 @@ bool valid_parenthasis(string s){
 }
 
 int main(){
-    
-    string str = "()[]{}";
-    cout << valid_parenthasis(str);
-    
-    
-    
     return 0;
 }
